@@ -1,0 +1,261 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: #e9f5ee; /* Light green background */
+      color: #333;
+    line-height: 1.6;
+  }
+  
+  h2, p {
+    margin: 0;
+  }
+  
+  /* Utility Classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .ml-2 {
+    margin-left: 0.5rem;
+  }
+  
+  /* Payment Container and Form Styles */
+  .payment-container {
+    background-color: #e9f5ee; /* Light green background */
+
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin: 3rem auto;
+  }
+  
+  .payment-header {
+    font-size: 2.25rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .payment-description {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-radio {
+    margin-right: 0.5;
+  cursor: pointer;
+  }
+  
+  .form-radio + label {
+  margin-left: 0.25rem;
+  }
+  
+  /* Styling radio button appearance */
+  .form-radio:checked {
+  background-color: #3498db;
+  border-color: #3498db;
+  }
+  
+  /* Button Styling */
+  .payment-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2rem;
+  align-self: flex-end;
+  }
+  
+  .payment-button:hover {
+  background-color: #2980b9;
+  }
+  
+  .payment-button:active {
+  transform: scale(0.98);
+  }
+  
+  /* Footer Styling */
+  .payment-footer {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  color: #95a5a6;
+  text-align: center;
+  }
+  
+  /* Icon Colors and Sizes */
+  .fa-cc-visa { color: #1a1f71; }
+  .fa-cc-mastercard { color: #eb001b; }
+  .fa-cc-amex { color: #2e77bc; }
+  .fa-paypal { color: #003087; }
+  .fa-btc { color: #f7931a; }
+  
+  .fa-cc-visa,
+  .fa-cc-mastercard,
+  .fa-cc-amex,
+  .fa-paypal,
+  .fa-btc {
+  font-size: 2rem;
+  margin: 0 0.5rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+  .payment-container {
+  width: 95%;
+  margin-top: 1.5rem;
+  }
+  
+  .payment-header {
+  font-size: 1.75rem;
+  }
+  
+  .payment-button {
+  width: 100%;
+  }
+  }
+  
+  /* Animation and Interaction */
+  .payment-method:hover label {
+  color: #3498db;
+  }
+  
+  .payment-method input[type="radio"]:hover + label {
+  color: #2980b9;
+  }
+  
+  /* Adding transitions for smooth color changes */
+  .payment-method label,
+  .payment-button {
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+  
+  /* Additional Styles for Branding */
+  :root {
+  --primary-color: #3498db;
+  --hover-color: #2980b9;
+  --background-color: #ecf0f1;
+  --text-color: #2c3e50;
+  --subtext-color: #7f8c8d;
+  --footer-text-color: #95a5a6;
+  }
+  
+  /* Applying root variables */
+  .payment-container {
+  background-color: var(--background-color);
+  }
+  
+  .payment-header {
+  color: var(--text-color);
+  }
+  
+  .payment-description {
+  color: var(--subtext-color);
+  }
+  
+  .payment-button {
+  background-color: var(--primary-color);
+  }
+
+  .payment-bottom {
+    background-color: white;
+    }
+    
+  
+  .payment-bottom:hover {
+  background-color: teal;
+  color:white;
+  }
+  
+  .payment-footer {
+  color: var(--footer-text-color);
+  }
+  
+  /* Custom Checkbox Styles */
+  .custom-checkbox {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  }
+  
+  .custom-checkbox:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 2px solid #bdc3c7;
+  border-radius: 4px;
+  }
+  
+  .custom-checkbox:checked:before {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  }
+  
+  .custom-checkbox:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 8px;
+  height: 14px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  }
+  
+  .custom-checkbox:checked:after {
+  opacity: 1;
+  }
+  
+  /* Ensuring accessibility for screen readers */
+  .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  }
