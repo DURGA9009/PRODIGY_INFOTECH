@@ -1,0 +1,61 @@
+body {
+    font: normal 16px comic sans ms;
+    text-align: center;
+    background-color: grey;
+  }
+  
+  #tic-tac-toe {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 30px auto;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background-color: rgb(234, 207, 140); /* First color */
+    }
+    33% {
+      background-color: burlywood/* Second color */
+    }
+    66% {
+      background-color: #8bd79e; /* Third color */
+    }
+    100% {
+      background-color: #b8d3e6; /* Loop back to the first color */
+    }
+  }
+  
+  #tic-tac-toe td {
+    border: 4px solid #000000; /* Use a single border color for all sides */
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font: bold 60px comic sans ms;
+    animation: colorChange 5s infinite; /* Apply the color-changing animation */
+  }
+  
+  #tic-tac-toe td.X {
+    color: #ED676B;
+  }
+  
+  #tic-tac-toe td.O {
+    color: #23916B;
+  }
+  
+  #scoreboard {
+    margin: 20px auto;
+  }
+  
+  #scoreboard .score {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #scoreboard .score#player1 {
+    color: #af5e5e;
+  }
+  
+  #scoreboard .score#player2 {
+    color: #23916B;
+  }
+  

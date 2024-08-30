@@ -1,0 +1,60 @@
+.circular-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .circle {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .half-circle {
+    position: absolute;
+    width: 250px;
+    height: 125px;
+    background: linear-gradient(135deg, #f7a1a1, #d67e6e);
+    border-radius: 125px 125px 0 0;
+    top: 0;
+    transform-origin: center bottom;
+  }
+  
+  .rotating .half-circle {
+    animation: rotateBackground 4s linear infinite;
+  }
+  
+  .time-display {
+    position: absolute;
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  @keyframes rotateBackground {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      background: linear-gradient(135deg, #f7a1a1, #d67e6e);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      background: linear-gradient(135deg, #f7a1a1, #d67e6e);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

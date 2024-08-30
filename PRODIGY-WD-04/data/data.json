@@ -1,0 +1,157 @@
+{
+  "Header": {
+    "title": [
+      "Hi There! Myself Durga."],
+      "title1": [
+        "I am a Software Developer..."]
+    
+  },
+  "About": {
+    "paragraph": "Driven and compassionate student with an excellent organizational and interpersonal skills. Iam Passionate in coding and game development also passionate about elevating the user experience through thoughtful and innovative work process. Looking for internship position in coding industry as Fullstack developer . I am highly motivated to gain Experience during the internship year to build a strong base in coding for a successful career",
+    "Why": [
+      "Experienced designers",
+      "On time delivery",
+      "Guaranteed products "
+      
+    ],
+    "Why2": [
+      "Reasonable Prices",
+      "Easily Customizable Plans",
+      "800+ happy customers"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Designs",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Designs",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Designs",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-google-plus",
+      "name": "Google UX Certification",
+      "text": "Year: 2020" 
+    
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "AWS Amazon Certification",
+      "text": "Year: 2023"
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Google Cloud Certification",
+      "text": "Year: 2022"
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "IBM Full stack Certifiation",
+      "text": "Year: 2033"
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "COursera UI Certfication",
+      "text": "Year : 2022"
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "NVDIA Certification",
+      "text": "Year : 2022"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"I had a great experience working with this freelancer. We started out by discussing the project. She was very responsive and quick to respond.\"",
+      "name": "John"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"High quality products are used overall in the project. Feedbacks and concerns if any were solved immediately.\"",
+      "name": "Gorge"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"The experience centre had a collection of creative designs and our search for my website design firm ended here. We were happy with flawless execution and timely customer interaction\"",
+      "name": "Peter "
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Durga has made our flat into a home, a Website which i wanted. She understood me and gave me my dream portfolio. The journey with her has been an amazing and smooth one for sure.\"",
+      "name": "Thresh"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Getting my website done by Durga is one of the wonderful decision which we had taken. It was extremely thoughtful decision and I am pleased to admit that they didn’t disappoint a bit.\"",
+      "name": "Michael"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"I have worked with the other side 3 times and they are an excellent freelancer. The first project was more of a test to see if our skills and experience would match, and they were able to complete the task within 2 days.\"",
+      "name": "Ana"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/03.jpg",
+      "name": "MANTHAN HACKATHON  ",
+      "job": "2021"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "IGNITRA HACKATHON",
+      "job": "2022"
+    },
+    {
+      "img": "img/team/01.jpg",
+      "name": "MSME IDEA HACKATHON",
+      "job": "2022"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "INDIAN OIL NIRMAN",
+      "job": "2023 "
+    }
+  ],
+  "Contact": {
+    "address": "43,CHB Colony, Palayankottai, Tirunelveli", 
+    "phone": "+91 9988766543",
+    "email": "Durga@info.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-wordpress",
+      "title": "Full-Stack Deveploment",
+      "text": "Responsive applications can be made"
+    },
+    {
+      "icon": "fa fa-tint",
+      "title": "Graphic Design",
+      "text": "Choose your designs, will make for you"
+    },
+    {
+      "icon": "fa fa-cloud",
+      "title": "Cloud Computing",
+      "text": "Can get your sites for services "
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Software Testing",
+      "text": "Get your bugs-free application"
+    }
+  ]
+}
